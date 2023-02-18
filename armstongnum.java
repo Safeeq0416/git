@@ -1,0 +1,29 @@
+[200~public class armstrong_num
+{
+		public static void main(String[] args)
+				{
+							int d1,d2,d3,d4;
+									int result;
+											for(int num=1000;num<=9999;num++)
+														{
+																	int temp=num;
+																			d1=temp%10;
+																					temp=temp/10;
+																							d2=temp%10;
+																									temp=temp/10;
+																											d3=temp%10;
+																													temp=temp/10;
+																															d4=temp%10;
+																																	temp=temp/10;
+																																			result=(d1*d1*d1)+(d2*d2*d2)+(d3*d3*d3)+(d4*d4*d4);
+																																					if(num==result)
+																																								{
+																																												System.out.println(num +" is armstrong_num");
+																																														}
+																																							/*else
+																																							 * 		System.out.println(num +" is not armstrong_num");*/
+																																								
+																																							
+																																							}
+												}
+}
